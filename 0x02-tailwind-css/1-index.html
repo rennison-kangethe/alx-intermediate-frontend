@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic CSS Grid Layout</title>
-    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./src/output.css" />
   </head>
   <body>
     <header>
@@ -12,6 +12,7 @@
     </header>
 
     <main class="grid grid-cols-3 gap-4">
+      npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
       <div class="bg-blue-200 p-4">Column 1</div>
       <div class="bg-blue-300 p-4">Column 2</div>
       <div class="bg-blue-400 p-4">Column 3</div>
