@@ -184,6 +184,9 @@
   .col-span-full {
     grid-column: 1 / -1;
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
   }
