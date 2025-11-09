@@ -1,0 +1,22 @@
+1. Install Node.js
+   Sass runs on Node.js, so you need it installed first
+
+- Go to the Node.js official website
+- Download the LTS version for Windows
+- Run the installer and follow the setup instructions
+- After installation, open Command Prompt and type:
+  node -v
+  npm -v
+
+2. Install Sass via npm
+
+- npm install -g sass
+
+3. Verify Sass Installation
+
+- To confirm Sass is installed, run sass --version
+
+4. Using Sass
+
+- You can now compile .scss or .sass files to CSS [sass input.css output.css]
+- You can also watch files for changes: [sass --watch input.scss:output.css]
